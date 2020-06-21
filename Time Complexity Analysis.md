@@ -39,7 +39,6 @@ T(n)=O(N^2)(1+n+n(n−1)+n(n−2)+...)+n∗(n−1)∗(n−2)∗(n−3)∗(n−4)
 =O(N^2)(1+n+n(n−1)+n(n−2)+...)+n∗(n−1)∗(n−2)∗(n−3)∗(n−4)∗....∗T(0)T(n)
 =O(N^2)(O((n−2)!))+n∗(n−1)∗(n−2)∗(n−3)∗....∗T(0)T(n)
 =O(N^2)(O((n−2)!))+n∗(n−1)∗(n−2)∗(n−3)∗....∗T(0)
-=O(N^2)(O((n−2)!))+O(n!)= O(n!) 
+=O(N^2)(O((n−2)!))+O(n!)= O(n!)  According to the definition of Big-Oh notation
 
-According to the definition of Big-Oh notation.[9]
 So we can conclude that the time complexity of N Queens Algorithm is O(n!)
